@@ -30,7 +30,6 @@ kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 ```
 
-
 # メモ
 
 ## k8sで静的ファイルホスティングを行う場合
@@ -40,15 +39,17 @@ kubectl apply -f service.yaml
 
 ## マニフェストファイルの作成
 
-クラスタ作成後、以下を実行すると雛形のyamlが出力される
+クラスタ作成後、以下を実行すると雛形のyamlが出力されます
 
 ```
 kubectl create deployment idea-factory-xyz --image=nginx --dry-run -o yaml
 ```
 
+あるいはGCPのコンソール上から作成したオブジェクトのyamlファイルを参照する手もあります。
+
 ## Podの疎通確認
 
-Serviceを作成しなくても、ローカルへポートフォワーディングしてpodへの疎通確認ができる
+Serviceを作成しなくても、ローカルへポートフォワーディングしてpodへの疎通確認ができます。
 
 ```
 kubectl get pods
