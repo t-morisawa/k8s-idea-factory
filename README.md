@@ -55,3 +55,19 @@ Serviceを作成しなくても、ローカルへポートフォワーディン�
 kubectl get pods
 kubectl port-forward <POD NAME> 8080:80
 ```
+
+## type=NodePortで公開する
+
+ - 参考: https://cloud.google.com/kubernetes-engine/docs/how-to/exposing-apps
+ 
+```
+kubectl get services  # NodePortを控える(3xxxx)
+kubectl get nodes --output wide  # Nodeの外部IPを控える
+gcloud compute firewall-rules create test-node-port --allow tcp:<node-port>  # node-portに控えたポートを入力
+```
+
+これでNodeにアクセスできる。削除は以下の通り
+
+```
+gcloud compute firewall-rules delete test-node-port
+```
