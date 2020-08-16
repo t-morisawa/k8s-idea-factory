@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{ZB9f:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),l=a.n(n),r=a("TJpk"),c=a("TO7H");t.default=function(){return l.a.createElement("div",null,l.a.createElement(r.Helmet,null,l.a.createElement("meta",{charSet:"utf-8"}),l.a.createElement("title",null,"TRIZ - アイデアファクトリー")),l.a.createElement(c.a,{appType:"triz"}))}}}]);
+//# sourceMappingURL=component---src-pages-idea-triz-js-161a4ee5f2285a0ac1e1.js.map

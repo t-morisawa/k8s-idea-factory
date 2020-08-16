@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{jtA4:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),l=a.n(n),r=a("TJpk"),c=a("TO7H");t.default=function(){return l.a.createElement("div",null,l.a.createElement(r.Helmet,null,l.a.createElement("meta",{charSet:"utf-8"}),l.a.createElement("title",null,"セールスコピーライティング - アイデアファクトリー")),l.a.createElement(c.a,{appType:"saleswriting"}))}}}]);
+//# sourceMappingURL=component---src-pages-idea-saleswriting-js-1455b237af0cff71d0ab.js.map

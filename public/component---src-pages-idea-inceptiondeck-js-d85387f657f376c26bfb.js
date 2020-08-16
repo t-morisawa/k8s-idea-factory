@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{jiZp:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),l=n.n(a),c=n("TJpk"),p=n("TO7H");t.default=function(){return l.a.createElement("div",null,l.a.createElement(c.Helmet,null,l.a.createElement("meta",{charSet:"utf-8"}),l.a.createElement("title",null,"インセプションデッキ - アイデアファクトリー")),l.a.createElement(p.a,{appType:"inceptiondeck"}))}}}]);
+//# sourceMappingURL=component---src-pages-idea-inceptiondeck-js-d85387f657f376c26bfb.js.map
